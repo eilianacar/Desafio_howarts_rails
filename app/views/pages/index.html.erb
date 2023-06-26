@@ -1,0 +1,13 @@
+<div class="container">
+  <%= image_tag 'banner.png', alt: "Imagen", class: "responsive-image" %>
+  <h1>Lista de personajes</h1>
+  <div class="character-cards">
+    <% @character.each do |character| %>
+      <div class="card">
+        <strong>Nombre:</strong> <%= character.name %><br>
+        <strong>Ubicación:</strong> <%= character.location %><br>
+        <strong>Casa:</strong> <%= character.house %><br><br>
+      </div>
+    <% end %>
+  </div>
+</div>

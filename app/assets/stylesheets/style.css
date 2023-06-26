@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .character-cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .card:nth-child(odd) {
+    background-color: #354671;
+  }
+  
+  .card:nth-child(even) {
+    background-color: #AE1D39;
+  }
